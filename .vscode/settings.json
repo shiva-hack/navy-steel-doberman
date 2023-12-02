@@ -1,6 +1,7 @@
 {
   "files.associations": {
-    "*.html.erb": "html"
+    "*.html.erb": "html",
+    "*.tailwind.css": "tailwindcss"
   },
   "emmet.includeLanguages": {
     "html.erb": "html",
