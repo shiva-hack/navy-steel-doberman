@@ -56,6 +56,11 @@ rails db:create
 rails db:migrate
 ```
 
+**Edit Credentials to set the OpenAI secrets**
+```bash
+rails credentials:edit
+```
+
 **Start Development Server**
 
 ```bash
