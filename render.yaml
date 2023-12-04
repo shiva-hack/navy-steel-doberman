@@ -3,9 +3,11 @@ databases:
     ipAllowList: []
     databaseName: navy_steel_doberman
     user: navy_steel_doberman
+    plan: free
 
 services:
   - type: web
+    plan: free
     name: navy_steel_doberman
     env: ruby
     buildCommand: "./render-build.sh"
