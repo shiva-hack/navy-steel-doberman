@@ -38,6 +38,9 @@ Follow these instructions to get the application running on your local machine f
 - Ruby (version in [`.ruby-version`](.ruby-version))
 - Rails (version in [`Gemfile`](Gemfile))
 - PostgreSQL with pgvector (Docker setup command provided)
+  ```bash
+  docker run -d -p 5432:5432 -e POSTGRES_PASSWORD=postgres --name my_gpt_postgres ankane/pgvector
+  ```
 
 ### 🧰 Installation Process
 
