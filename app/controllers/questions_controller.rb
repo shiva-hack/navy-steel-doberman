@@ -43,7 +43,7 @@ class QuestionsController < ApplicationController
     end
   end
 
-  # POST /ask
+  # POST /questions/ask
   def ask
     # Find the question in the database or create a new one
     question = Question.find_or_initialize_by(question: params[:question])
