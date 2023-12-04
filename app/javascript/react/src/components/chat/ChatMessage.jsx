@@ -14,11 +14,11 @@ import React from "react";
  */
 const ChatMessage = ({ content, sender }) => (
   <div
-    className={`flex self-${
-      sender === "user" ? "end" : "start"
-    } flex-col rounded-2xl p-4 bg-${
-      sender === "user" ? "neutral-300" : "indigo-300"
-    } rounded-${sender === "user" ? "br" : "bl"}-none max-w-xl justify-end`}
+    className={`flex ${
+      sender === "user" ? "self-end" : "self-start"
+    } flex-col rounded-2xl p-4 ${
+      sender === "user" ? "bg-neutral-300" : "bg-indigo-300"
+    } ${sender === "user" ? "rounded-br-none" : "rounded-bl-none"} max-w-xl justify-end`}
   >
     <h2 className="text-xs">{sender === "user" ? "User" : "BookBot"}</h2>
     <p>{content}</p>
