@@ -83,6 +83,4 @@ test:
 #
 production:
   <<: *default
-  database: navy_steel_doberman_production
-  username: navy_steel_doberman
-  password: <%= ENV["NAVY_STEEL_DOBERMAN_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
