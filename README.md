@@ -4,7 +4,7 @@ This Rails-React application uniquely combines the powerful backend capabilities
 
 ## 🔗 Public URL
 
-- The project could be publicly accessed at `PROJECT_URL`.
+- The project could be publicly accessed at https://navy-steel-doberman.onrender.com.
 
 ## 🎯 Core Features
 
