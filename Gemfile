@@ -72,3 +72,5 @@ end
 gem "neighbor", "~> 0.3.1"
 
 gem "ruby-openai", "~> 6.3"
+
+gem "pdf-reader", "~> 2.11"
